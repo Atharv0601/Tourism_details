@@ -1,0 +1,157 @@
+body
+{
+  font-family: monaco, Consolas, Menlo, Courier, monospace;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.contact-heading{
+  font-size: 16px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.box1
+{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  /* padding: 150px; */
+
+}
+
+.box2
+{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  /* padding: 150px; */
+  
+}
+
+.box3
+{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  /* padding: 150px; */
+  
+}
+
+
+#c-name
+{
+  align-self: flex-start;
+}
+
+.info
+{
+  display: flex;
+  margin: 50px;
+  cursor: text;
+  font-weight: bold;
+  /* align-items: flex-start; */
+}
+
+
+.info1
+{
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  cursor: text;
+  font-weight: bold;
+}
+
+
+
+#btn-1
+{
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: red;
+  color: white;
+}
+
+#btn-1:hover
+{
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: grey;
+  color: black;
+  transition: 0.5s;
+}
+
+
+
+
+.pertic-info
+{
+  font-weight: normal;
+}
+
+
+.container{
+  border: 10px solid rgb(209, 209, 209);
+  border-radius: 20px;
+}
+
+.middle-container1
+{
+   border: 5px solid rgb(209, 209, 209);
+  /* border-radius: 20px;  */
+
+}
+.middle-container2
+{
+  border: 5px solid rgb(209, 209, 209);
+  /* border-radius: 20px; */
+
+}
+.middle-container3
+{
+
+  /* border-radius: 20px; */
+  border: 5px solid rgb(209, 209, 209);
+}
